@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: e068ffe0216b3704d9000d96db12beee
+timeCreated: 1486910300
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Back
+    100002: Barrel
+    100004: Barrel2
+    100006: Blue
+    100008: Bolt
+    100010: EjectionLid
+    100012: Front
+    100014: Front2
+    100016: Front3
+    100018: Grip
+    100020: Grip2
+    100022: InnerPiece
+    100024: RailBack
+    100026: RailTop
+    100028: RocketLauncher
+    100030: RocketLauncher2
+    100032: Sights
+    100034: //RootNode
+    100036: Stock
+    100038: WhiteBack
+    100040: WhiteFronht
+    100042: WhiteLow
+    100044: WhiteTop
+    400000: Back
+    400002: Barrel
+    400004: Barrel2
+    400006: Blue
+    400008: Bolt
+    400010: EjectionLid
+    400012: Front
+    400014: Front2
+    400016: Front3
+    400018: Grip
+    400020: Grip2
+    400022: InnerPiece
+    400024: RailBack
+    400026: RailTop
+    400028: RocketLauncher
+    400030: RocketLauncher2
+    400032: Sights
+    400034: //RootNode
+    400036: Stock
+    400038: WhiteBack
+    400040: WhiteFronht
+    400042: WhiteLow
+    400044: WhiteTop
+    2300000: Back
+    2300002: Barrel
+    2300004: Barrel2
+    2300006: Blue
+    2300008: Bolt
+    2300010: EjectionLid
+    2300012: Front
+    2300014: Front2
+    2300016: Front3
+    2300018: Grip
+    2300020: Grip2
+    2300022: InnerPiece
+    2300024: RailBack
+    2300026: RailTop
+    2300028: RocketLauncher
+    2300030: RocketLauncher2
+    2300032: Sights
+    2300034: Stock
+    2300036: WhiteBack
+    2300038: WhiteFronht
+    2300040: WhiteLow
+    2300042: WhiteTop
+    3300000: Back
+    3300002: Barrel
+    3300004: Barrel2
+    3300006: Blue
+    3300008: Bolt
+    3300010: EjectionLid
+    3300012: Front
+    3300014: Front2
+    3300016: Front3
+    3300018: Grip
+    3300020: Grip2
+    3300022: InnerPiece
+    3300024: RailBack
+    3300026: RailTop
+    3300028: RocketLauncher
+    3300030: RocketLauncher2
+    3300032: Sights
+    3300034: Stock
+    3300036: WhiteBack
+    3300038: WhiteFronht
+    3300040: WhiteLow
+    3300042: WhiteTop
+    4300000: Bolt
+    4300002: RailTop
+    4300004: EjectionLid
+    4300006: WhiteTop
+    4300008: Sights
+    4300010: RocketLauncher2
+    4300012: RocketLauncher
+    4300014: InnerPiece
+    4300016: WhiteFronht
+    4300018: WhiteLow
+    4300020: WhiteBack
+    4300022: Front3
+    4300024: Front2
+    4300026: Front
+    4300028: Barrel2
+    4300030: Blue
+    4300032: Barrel
+    4300034: Back
+    4300036: RailBack
+    4300038: Stock
+    4300040: Grip2
+    4300042: Grip
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

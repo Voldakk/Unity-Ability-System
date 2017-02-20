@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 315e01b82fd681a4496582b4857c2ae4
+timeCreated: 1487447693
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - _uiIconPrefab: {fileID: 1725495650898500, guid: 9ae09d1bbaebea64788a1d018f36a739,
+      type: 2}
+  - _uiWeaponIconPrefab: {fileID: 1450102393670878, guid: 7c4ffd87cb8aa9746b6b8f4deb21adaa,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

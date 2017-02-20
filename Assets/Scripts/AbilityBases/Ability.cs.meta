@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a673e5857b0f6a44e892bc8db8862376
+timeCreated: 1487439766
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - transform: {instanceID: 0}
+  - mainCamera: {instanceID: 0}
+  - weaponCamera: {instanceID: 0}
+  - uiIconPrefab: {fileID: 1725495650898500, guid: 9ae09d1bbaebea64788a1d018f36a739,
+      type: 2}
+  - icon: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

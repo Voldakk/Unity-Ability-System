@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b3b2ea1de9b5624429aec49e61eee1e8
+timeCreated: 1487028884
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - healthBar: {instanceID: 0}
+  - healthText: {instanceID: 0}
+  - healthBarPrefab: {fileID: 1994536718596304, guid: d5d89a00c998d5942b96ac0ee4cd809f,
+      type: 2}
+  - stats: {fileID: 11400000, guid: f523693b0a480c54191a8d7a6a30b664, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
