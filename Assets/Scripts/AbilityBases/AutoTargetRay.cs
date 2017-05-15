@@ -39,14 +39,14 @@ namespace Abilities
                 active = true;
                 lr.startColor = rayColor;
                 lr.endColor = rayColor;
-                lr.numPositions = 2;
+                lr.positionCount = 2;
                 lr.SetPosition(0, barrelEnd.position);
                 lr.SetPosition(1, target.transform.position);
             }
             else
             {
                 active = false;
-                lr.numPositions = 0;
+                lr.positionCount = 0;
             }
         }
         protected override void OnKeyUp()
@@ -54,7 +54,7 @@ namespace Abilities
             base.OnKeyUp();
             active = false;
 
-            lr.numPositions = 0;
+            lr.positionCount = 0;
         }
         public override void OnDestroy()
         {
@@ -66,7 +66,7 @@ namespace Abilities
         {
             base.OnInterupt();
 
-            lr.numPositions = 0;
+            lr.positionCount = 0;
         }
     }
 }

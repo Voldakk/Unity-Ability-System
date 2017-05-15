@@ -145,7 +145,7 @@ namespace Abilities
         }
 
         /// <summary>
-        /// When the key in pressed
+        /// When the key is pressed
         /// </summary>
         public void KeyDown()
         {
