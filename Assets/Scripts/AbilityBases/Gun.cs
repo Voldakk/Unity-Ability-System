@@ -30,7 +30,7 @@ namespace Abilities
             // Create the gun object
             gun = FindExistingWeapon(gunPrefab);
             if (gun == null)
-                gun = ((GameObject)GameObject.Instantiate(gunPrefab, weaponCamera.transform, false)).transform;
+                gun = Instantiate(gunPrefab, weaponCamera.transform, false).transform;
 
             // Find the barrel end
             barrelEnd = gun.Find("BarrelEnd");
@@ -49,18 +49,14 @@ namespace Abilities
         }
         protected override void OnKeyDown()
         {
-            Debug.Log("OnKeyDown");
             base.OnKeyDown();
 
             if (autofire)
                 return;
 
-            Debug.Log("OnKeyDown2");
-
             if (Time.time > lastUse + cooldown)
             {
                 lastUse = Time.time;
-                Debug.Log("OnKeyDown if, fire");
                 Fire();
             }
         }
@@ -90,8 +86,8 @@ namespace Abilities
         {
             base.OnDestroy();
 
-            GameObject.Destroy(gun.gameObject);
-            GameObject.Destroy(ammoText.gameObject);
+            Destroy(gun.gameObject);
+            Destroy(ammoText.gameObject);
         }
     }
 }

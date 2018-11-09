@@ -49,6 +49,7 @@ namespace Abilities
                 lr.positionCount = 0;
             }
         }
+
         protected override void OnKeyUp()
         {
             base.OnKeyUp();
@@ -56,12 +57,14 @@ namespace Abilities
 
             lr.positionCount = 0;
         }
+
         public override void OnDestroy()
         {
             base.OnDestroy();
             active = false;
-            GameObject.Destroy(weapon.gameObject);
+            Destroy(weapon.gameObject);
         }
+
         protected override void OnInterupt()
         {
             base.OnInterupt();

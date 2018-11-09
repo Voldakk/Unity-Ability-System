@@ -21,6 +21,7 @@ namespace Abilities
                 Apply(target); 
             }
         }
+
         private void Apply(Character character)
         {
             Abilities targetAbilities = target.GetComponent<Abilities>();
@@ -32,6 +33,7 @@ namespace Abilities
                 }
             }
         }
+
         private void Remove(Character character)
         {
             Abilities targetAbilities = target.GetComponent<Abilities>();

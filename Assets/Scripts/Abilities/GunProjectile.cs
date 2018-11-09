@@ -11,7 +11,6 @@ namespace Abilities
         public bool explosion;
         protected override void Fire()
         {
-            Debug.Log("Fire");
             if (Time.time >= lastFire + 1 / firerate)
             {
                 if (currentAmmo > 0)
@@ -23,7 +22,7 @@ namespace Abilities
 
                     Ray ray = camera.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
                     RaycastHit hit;
-                    GameObject projectile = (GameObject)GameObject.Instantiate(projectilePrefab);
+                    GameObject projectile = Instantiate(projectilePrefab);
 
                     Vector3 force = Vector3.zero;
                     if (Physics.Raycast(ray, out hit, 10000))
@@ -38,7 +37,6 @@ namespace Abilities
                     projectile.transform.position = barrelEnd.position;
                     projectile.transform.rotation = Quaternion.LookRotation(force);
                     projectile.GetComponent<Rigidbody>().AddForce(force, ForceMode.VelocityChange);
-
 
                     Rocket rocket = projectile.GetComponent<Rocket>();
                     if(rocket != null)

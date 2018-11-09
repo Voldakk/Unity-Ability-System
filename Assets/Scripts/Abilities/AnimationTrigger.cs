@@ -22,7 +22,7 @@ namespace Abilities
             // Create the item
             item = FindExistingWeapon(prefab);
             if (item == null)
-                item = ((GameObject)GameObject.Instantiate(prefab, weaponCamera.transform, false)).transform;
+                item = Instantiate(prefab, weaponCamera.transform, false).transform;
             anim = item.GetComponent<Animator>();
 
         }
@@ -52,7 +52,6 @@ namespace Abilities
         public IEnumerator Trigger()
         {
             yield return new WaitForSeconds(delay);
-            Debug.Log("Trigger");
             ability.KeyDown();
         }
     }
