@@ -10,6 +10,7 @@ public class MovementEditor: Editor
     {
         ability = (Abilities.Movement)target;
     }
+
     public override void OnInspectorGUI()
     {
         ability.iconType = (Abilities.IconType)EditorGUILayout.EnumPopup("Icon type", ability.iconType);
@@ -24,6 +25,7 @@ public class MovementEditor: Editor
 
         EditorGUILayout.Space();
 
+        ability.speedModifier = EditorGUILayout.FloatField("Speed modifier", ability.speedModifier);
         ability.accelModifier = EditorGUILayout.FloatField("Acceleration modifier", ability.accelModifier);
         ability.decelModifier = EditorGUILayout.FloatField("Decceleration modifier", ability.decelModifier);
 
@@ -40,25 +42,3 @@ public class MovementEditor: Editor
         EditorUtility.SetDirty(ability);
     }
 }
-
-/*
-// Int
-ability.varInt = EditorGUILayout.IntField("VarInt", ability.varInt);
-
-// Float
-ability.varFloat = EditorGUILayout.FloatField("VarFloat", ability.varFloat);
-
-// Bool
-ability.varBool = EditorGUILayout.Toggle("VarBool", ability.varBool);
-
-// Prefab
-ability.varPrefab = (GameObject)EditorGUILayout.ObjectField("Var prefab", ability.varPrefab, typeof(GameObject), false);
-
-// LayerMask
-ability.varLayerMask = EditorGUICustomLayout.LayerMaskField("VarLayerMask", ability.varLayerMask);
-
-// List<T>
-serializedObject.Update();
-EditorGUILayout.PropertyField(serializedObject.FindProperty("varList"), true);
-serializedObject.ApplyModifiedProperties();
-*/

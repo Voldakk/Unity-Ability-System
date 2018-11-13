@@ -17,7 +17,7 @@ public class Rocket : MonoBehaviour
     {
         if(explode)
         {
-            //Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
             Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
             Health health;
